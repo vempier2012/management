@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\UserInterface",
+    "\\API\\UserInterface\\Views",
+    "\\API\\UserInterface\\Views\\Shared",
+    "\\API\\WebDashboard\\Views\\Home"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,66 @@
+﻿@model UserInterface.Models.DonVi
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DonVi</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tendonvi)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tendonvi)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nguoitao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nguoitao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaytao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ngaytao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nguoicapnhat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nguoicapnhat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaycapnhat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ngaycapnhat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Solancapnhat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Solancapnhat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Trangthai)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Trangthai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Madonvi">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
