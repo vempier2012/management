@@ -15,10 +15,10 @@ namespace API.Entities
         public string birth_place { get; set; }
         public bool gender { get; set; }
         public string identity_code { get; set; }
-        public string phone_num { get; set; }
+        public string personal_phone_num { get; set; }
+        public string relative_phone_num { get; set; }
         public string permanent_addr { get; set; }
         public string temporary_addr { get; set; }
-        public string university_mail { get; set; }
         public string personal_mail { get; set; }
         public DateTime created_date { get; set; }
         public string created_by { get; set; }
@@ -27,5 +27,6 @@ namespace API.Entities
         public int modified_count { get; set; }
 
         public ICollection<StudentMajor> StudentsMajors { get; set; }
+        public ICollection<Attendence> Attendences { get; set; }
     }
 }
