@@ -11804,11 +11804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OUTSIDE\\API Core\\API\\Dashboard_Front\\Dashboard_Front.csproj",
+      "projectUniqueName": "D:\\OUTSIDE\\managementProject\\management\\API Core\\API\\Dashboard_Front\\Dashboard_Front.csproj",
       "projectName": "Dashboard_Front",
-      "projectPath": "D:\\OUTSIDE\\API Core\\API\\Dashboard_Front\\Dashboard_Front.csproj",
+      "projectPath": "D:\\OUTSIDE\\managementProject\\management\\API Core\\API\\Dashboard_Front\\Dashboard_Front.csproj",
       "packagesPath": "C:\\Users\\vinhthp\\.nuget\\packages\\",
-      "outputPath": "D:\\OUTSIDE\\API Core\\API\\Dashboard_Front\\obj\\",
+      "outputPath": "D:\\OUTSIDE\\managementProject\\management\\API Core\\API\\Dashboard_Front\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
